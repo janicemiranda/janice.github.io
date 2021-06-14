@@ -1,0 +1,102 @@
+body {
+  background-image: url(hotel.jpeg);
+  background-blend-mode: lighten;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+h1 {
+  font-family: "Julius Sans One", Sans-Serif;
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  line-height: 1.5;
+}
+p {
+  font-family: "Monda", Sans-Serif;
+  font-size: 16px;
+}
+.question {
+  margin-top: 20px;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+form {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(128, 109, 110, 0.959);
+  padding: 1px 20px 60px 20px;
+  font-family: "Monda", Sans-Serif;
+  font-size: 16px;
+}
+
+h1,
+p {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#heading {
+  background: rgba(0, 0, 0, 0.6);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  padding-top: 1px;
+}
+
+#comments {
+  width: 95%;
+  padding: 10px 10px;
+  margin: 4px 5px;
+}
+
+select {
+  width: 100%;
+  padding: 10px 0px 10px 5px;
+}
+
+input[type="submit"] {
+  background-color: rgb(190, 165, 166);
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+  font-family: "Monda", Sans-Serif;
+  font-size: 16px;
+}
+.form-group {
+  margin-right: 20px;
+  margin-left: 15px;
+}
+
+.text-field {
+  width: 100%;
+  padding: 10px 0px 10px 5px;
+  border: none;
+}
+
+@media only screen and (min-width: 601px) {
+  #heading {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  form {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hotel Survey</title>
+        <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Monda" rel="stylesheet">
+
+       
+<link rel="stylesheet" href="/style.css">
+      </head>
+      <body>
+          <main>
+            <div id="heading">
+                <h1 id="title">Hotel Service Experience</h1>
+                <p id="description">We hope you enjoyed your stay with us! Please complete this survey at your convenience and qualify for special offers.</p>
+            </div>
+        
+            <form id="survey-form">
+                <div class="form-group">
+                    <label for="name" id="name-label" class="question">Name</label></br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" class="text-field" required/></br>
+                </div>
+                <div class="form-group">
+                    <label for="email"id="email-label"class="question" >Email</label></br>
+                    <input type="email" id="email" email="email" placeholder="Enter your Email" class="text-field" required/></br>
+                </div>
+                <div class="form-group">
+                    <label for="age" id="number-label"class="question">Age (optional)</label></br>
+                    <input type="number" id="number" min="10" max="99" placeholder="Age" class="text-field"></br>
+                </div>
+                <div class="form-group">  
+                    <label for="room-type" class="question">Which room type did you choose for your stay?</label></br>
+                    <select id="dropdown">
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="Standard">Standard</option>
+                        <option value="Deluxe">Deluxe</option>
+                        <option value="Executive">Executive</option>
+                        <option value="Suite">Suite</option>
+                    </select></br>
+                </div>
+                <div class="form-group"> 
+                    <label for="room" class="question">Was the condition of the room & furnishings satisfactory?</label></br>
+                    <input type="radio" id="yes" name="condition-answer" value="yes">
+                    <label for="no">Yes</label> </br>
+                    <input type="radio" id="no" name="condition-answer" value="no">
+                    <label for="no">No</label> </br>
+                </div>
+
+                <div class="form-group"> 
+                    <label for="improvements" class="question">What would you like to see improved for your next visit?</label> </br>
+                    <input type="checkbox" id="Room Quality" value="Room Quality">
+                    <label for="projects">Room Quality</label></br>
+                    <input type="checkbox" id="Meals" value="Meals">
+                    <label for="projects">Meals</label></br>
+                    <input type="checkbox" id="Amenities" value="Amenities">
+                    <label for="projects">Amenities</label></br>
+                </div>
+                
+                <div class="form-group"> 
+                    <label for="comments"class="question">We would appreciate any suggestions you might have as we continue to improve our hotel and its services.</label></br>
+                    <textarea id="comments"></textarea></br>
+                    <input type="submit" id="submit">
+                </div>
+        
+            </form>
+
+        </main> 
+        
+      </body>
+</html>
